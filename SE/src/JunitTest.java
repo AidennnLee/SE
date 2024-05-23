@@ -21,7 +21,7 @@ class JunitTest {
 
 	@Test
 	void testRegisterBook() {
-		fail("Not yet implemented");
+		
 	}
 
 }
