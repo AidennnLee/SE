@@ -3,25 +3,15 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class JunitTest {
+class BookSearchTest {
 
 	@BeforeEach
-	void setUp() throws Exception {
-	}
-
-	@Test
-	void testGetBookInfo() {
+	void setUp() {
 		
 	}
-
+	
 	@Test
-	void testDeleteBook() {
-		
+	void testSearch() {
+		System.out.println("일반 search 테스트");
 	}
-
-	@Test
-	void testRegisterBook() {
-		
-	}
-
 }

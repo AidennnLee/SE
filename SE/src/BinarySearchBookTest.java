@@ -15,7 +15,7 @@ class BinarySearchBookTest {
 	    int[] bookIds = {1, 2, 3, 4, 5};
 	    int targetId = 1;
 	    int expected = 0;
-	    assertEquals(expected, BinarySearchBook.binarySearch(bookIds, targetId));
+	    assertEquals(expected, BinarySearchBook.search_bs(bookIds, targetId));
 	    System.out.println("테스트 통과");
 	   }
 	
@@ -25,7 +25,7 @@ class BinarySearchBookTest {
         int[] bookIds = {1, 2, 3, 4, 5};
         int targetId = 3;
         int expected = 2;
-        assertEquals(expected, BinarySearchBook.binarySearch(bookIds, targetId));
+        assertEquals(expected, BinarySearchBook.search_bs(bookIds, targetId));
         System.out.println("테스트 통과");
     }
 
@@ -35,7 +35,7 @@ class BinarySearchBookTest {
         int[] bookIds = {1, 2, 3, 4, 5};
         int targetId = 5;
         int expected = 4;
-        assertEquals(expected, BinarySearchBook.binarySearch(bookIds, targetId));
+        assertEquals(expected, BinarySearchBook.search_bs(bookIds, targetId));
         System.out.println("테스트 통과");
     }
     
@@ -45,7 +45,7 @@ class BinarySearchBookTest {
         int[] bookIds = {1, 2, 3, 4, 5};
         int targetId = 6;
         int expected = -1;
-        assertEquals(expected, BinarySearchBook.binarySearch(bookIds, targetId));
+        assertEquals(expected, BinarySearchBook.search_bs(bookIds, targetId));
         System.out.println("테스트 통과");
     }
 }
