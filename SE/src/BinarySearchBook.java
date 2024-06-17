@@ -1,6 +1,6 @@
 public class BinarySearchBook {
 
-    public static int binarySearch(int[] bookIds, int targetId) {
+    public static int search_bs(int[] bookIds, int targetId) {
         int left = 0;
         int right = bookIds.length - 1;
 
